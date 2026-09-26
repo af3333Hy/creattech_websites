@@ -1,17 +1,17 @@
 {
+  "method": "First I drew the e-cigarette by hand to understand what parts are inside it. Then I redrew it in Piskel on a 32 x 64 canvas, with each part on its own layer so that every part can move on its own. Finally I looked at what HTML, CSS and JavaScript each do.",
+  "related_work": "My main reference was the Project 0 brief. On Tuesday the teacher showed us his own demo: a pixel-art phone whose parts move apart when you click them, so I copied that style for my e-cigarette. In Thursday's guest lecture, the speaker showed her project that takes an old iPhone apart in a cross-section view. I used the Piskel tool on my computer to draw the pixel art. My own source is the object itself: I use a disposable e-cigarette every day.",
+  "references": "",
+  "conclusion_future_work": "I learned a lot this week: how to use Piskel, what the three web languages each do, and how classes work here in the UK. It felt really comfortable, and I want to thank our module leader Boyd. Next week there is a lot of new content, and my main goal is to get through the code.",
+  "date": "2026-09-26T23:58:00.000+08:00",
+  "results_discussion": "I finished the pixel-art e-cigarette and split it into five parts. I also uploaded Tuesday's portrait of my classmate and Thursday's storyboard; you can see them below. Pixel art turned out to be really easy and took me very little time, but coding is really difficult. So far I only understand the basic rules: in this project the HTML file is the frame, the CSS file controls how things look and move, the JavaScript file handles the clicks, and a facts file holds the text. I do not understand every line yet, so next week I want to go through the code one by one. The parts do not move yet, the facts for each part are not written, and the AI part will wait for the lesson on 7 October. Because the drawing is done, I can start preparing the video. I am really thankful the teacher gave us live translation; it makes the lesson much easier for Chinese students.",
   "week": 1,
-  "title": "",
-  "date": "",
-  "introduction": "",
-  "related_work": "",
-  "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
+  "title": "A full week of new things",
   "images": [
     "assets/images/partner_portrait.jpg",
     "assets/images/portrait_with_partner.jpg",
     "assets/images/comic_storyboard.jpg"
   ],
-  "video": "",
-  "references": ""
+  "introduction": "This week I tried some new things: pixel art and a few simple computer languages. It was my first week of classes, and so far I have had no problems with the language. I also finished this week's assignment. It was a full week.",
+  "video": ""
 }
