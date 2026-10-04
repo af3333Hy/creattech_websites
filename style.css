@@ -130,3 +130,7 @@ main#content {
   color: var(--muted);
   font-style: italic;
 }
+.acm-section p,
+  .project-card p {
+    white-space: pre-line;
+  }

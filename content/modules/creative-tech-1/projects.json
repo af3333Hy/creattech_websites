@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Project 0: Behind The Tech - Moodboard",
-      "description": "Moodboard for Project 0. My object is a disposable e-cigarette. The board has six groups (A to F) and a mood curve that follows one e-cigarette from buying it to throwing it away. Use the link below to see the board in full size. Image sources (the numbers match the numbers on the board): A My object: [1] Elf Bar disposable vape, photograph, Wikimedia Commons, https://commons.wikimedia.org/?curid=140680811 . B Taking it apart: [2] Todd McLellan, Things Come Apart, 2013, https://www.toddmclellan.com/thingscomeapart ; [3] Leonardo da Vinci, Codex Madrid I, 1490s, https://commons.wikimedia.org/?curid=97614329 ; [4] Crawford and Joler, Anatomy of an AI System, 2018, https://anatomyof.ai/ . C How it moves: [5] Eadweard Muybridge, The Horse in Motion, 1878, https://commons.wikimedia.org/?curid=57260211 ; [6] Etienne-Jules Marey, smoke study, 1901, https://commons.wikimedia.org/?curid=192520938 . D Drawn pixel by pixel: [7] eBoy, LA Hot Dog pixorama, n.d., https://www.eboy.com/products/la-hotdog-art-print-framed ; [8] Lynn Fisher, A Single Div, 2014-, https://a.singlediv.com/ . E What it costs the planet: [9] Discarded vape pod in grass, photograph, Wikimedia Commons, https://commons.wikimedia.org/?curid=88001960 ; [10] Electronic waste, Agbogbloshie, Ghana, Wikimedia Commons, https://commons.wikimedia.org/?curid=75834080 ; [11] Unknown Fields Division, Rare Earthenware, 2015, https://collections.vam.ac.uk/item/O1326005 ; [12] Thomas Thwaites, The Toaster Project, 2009-10, https://commons.wikimedia.org/?curid=124514684 . F The look of my board: [13] Olia Lialina, My Boyfriend Came Back from the War, 1996, https://commons.wikimedia.org/?curid=54307096 ; [14] Theo van Doesburg, Composition VIII (The Cow), c.1918, https://commons.wikimedia.org/?curid=881836 .",
+      "description": "Moodboard for Project 0. My object is a disposable e-cigarette. The board has six groups (A to F) and a mood curve that follows one e-cigarette from buying it to throwing it away. Use the link below to see the board in full size.\n\nImage sources (the numbers match the numbers on the board)\n\nA  My object\n[1] Elf Bar disposable vape, photograph, Wikimedia Commons\nhttps://commons.wikimedia.org/?curid=140680811\n\nB  Taking it apart\n[2] Todd McLellan, Things Come Apart, 2013\nhttps://www.toddmclellan.com/thingscomeapart\n[3] Leonardo da Vinci, Codex Madrid I, 1490s\nhttps://commons.wikimedia.org/?curid=97614329\n[4] Crawford and Joler, Anatomy of an AI System, 2018\nhttps://anatomyof.ai/\n\nC  How it moves\n[5] Eadweard Muybridge, The Horse in Motion, 1878\nhttps://commons.wikimedia.org/?curid=57260211\n[6] Etienne-Jules Marey, smoke study, 1901\nhttps://commons.wikimedia.org/?curid=192520938\n\nD  Drawn pixel by pixel\n[7] eBoy, LA Hot Dog pixorama, n.d.\nhttps://www.eboy.com/products/la-hotdog-art-print-framed\n[8] Lynn Fisher, A Single Div, 2014-\nhttps://a.singlediv.com/\n\nE  What it costs the planet\n[9] Discarded vape pod in grass, photograph, Wikimedia Commons\nhttps://commons.wikimedia.org/?curid=88001960\n[10] Electronic waste, Agbogbloshie, Ghana, Wikimedia Commons\nhttps://commons.wikimedia.org/?curid=75834080\n[11] Unknown Fields Division, Rare Earthenware, 2015\nhttps://collections.vam.ac.uk/item/O1326005\n[12] Thomas Thwaites, The Toaster Project, 2009-10\nhttps://commons.wikimedia.org/?curid=124514684\n\nF  The look of my board\n[13] Olia Lialina, My Boyfriend Came Back from the War, 1996\nhttps://commons.wikimedia.org/?curid=54307096\n[14] Theo van Doesburg, Composition VIII (The Cow), c.1918\nhttps://commons.wikimedia.org/?curid=881836",
       "images": [
         "assets/images/p0_moodboard.jpg"
       ],
@@ -11,63 +11,63 @@
     },
     {
       "title": "Project 0: Desk Research - Source 1 of 9 (Peer-reviewed)",
-      "description": "Reid, H. et al. (2023) 'Up in smoke: Considerations for lithium-ion batteries in disposable e-cigarettes', Joule. This paper is about the lithium-ion battery inside disposable e-cigarettes. The researchers (2023) tested the batteries and found that they can be recharged: after more than 700 charging cycles they still kept over 90% of their capacity. I will use this number in the battery part of my page, to show that a battery made to be used once could be used hundreds of times.",
+      "description": "Reid, H. et al. (2023) 'Up in smoke: Considerations for lithium-ion batteries in disposable e-cigarettes', Joule.\n\nThis paper is about the lithium-ion battery inside disposable e-cigarettes. The researchers (2023) tested the batteries and found that they can be recharged: after more than 700 charging cycles they still kept over 90% of their capacity. I will use this number in the battery part of my page, to show that a battery made to be used once could be used hundreds of times.",
       "images": [],
       "video": "",
       "link": "https://www.cell.com/joule/fulltext/S2542-4351(23)00482-8"
     },
     {
       "title": "Project 0: Desk Research - Source 2 of 9 (Peer-reviewed)",
-      "description": "Turner, A., Scott, J.W., Backshall-Kennedy, T. and Dabrowski, M.C. (2024) 'Deconstructing contemporary disposable vapes: A material and elemental analysis', Science of the Total Environment. This paper is about what a disposable vape is made of. The researchers (2024) took apart nine types of disposable vapes. One vape weighs about 50 grams, plastic can be up to about 80% of it, and they found toxic metals such as lead, mercury and cobalt in the battery and the circuit board. I will use the plastic number for the shell and the toxic metals for the circuit board.",
+      "description": "Turner, A., Scott, J.W., Backshall-Kennedy, T. and Dabrowski, M.C. (2024) 'Deconstructing contemporary disposable vapes: A material and elemental analysis', Science of the Total Environment.\n\nThis paper is about what a disposable vape is made of. The researchers (2024) took apart nine types of disposable vapes. One vape weighs about 50 grams, plastic can be up to about 80% of it, and they found toxic metals such as lead, mercury and cobalt in the battery and the circuit board. I will use the plastic number for the shell and the toxic metals for the circuit board.",
       "images": [],
       "video": "",
       "link": "https://doi.org/10.1016/j.scitotenv.2024.176292"
     },
     {
       "title": "Project 0: Desk Research - Source 3 of 9 (Peer-reviewed)",
-      "description": "Iturralde, K., Karunarathne, S., Selby, P. and Zawertailo, L. (2026) 'A review of the environmental impacts of post-consumer electronic cigarette waste and disposal', Nicotine & Tobacco Research. This review is about what happens to the environment after e-cigarettes are thrown away. It looked at 18 papers published between 2004 and June 2024. It says e-cigarettes are both hazardous waste and electronic waste, and the e-liquid harms animals and plants living in water and on land. I will use this in the e-liquid part of my page.",
+      "description": "Iturralde, K., Karunarathne, S., Selby, P. and Zawertailo, L. (2026) 'A review of the environmental impacts of post-consumer electronic cigarette waste and disposal', Nicotine & Tobacco Research.\n\nThis review is about what happens to the environment after e-cigarettes are thrown away. It looked at 18 papers published between 2004 and June 2024. It says e-cigarettes are both hazardous waste and electronic waste, and the e-liquid harms animals and plants living in water and on land. I will use this in the e-liquid part of my page.",
       "images": [],
       "video": "",
       "link": "https://doi.org/10.1093/ntr/ntaf202"
     },
     {
       "title": "Project 0: Desk Research - Source 4 of 9 (News / interview)",
-      "description": "Kemp, O., Warnes, S. and Thomson, Q. (2025) 'UK to ban sale of disposable vapes in response to soaring waste and safety risks', CNN, 31 May. This news article is about the UK ban on the sale of disposable vapes. It reports a Material Focus figure from 2024: about 8.2 million vapes were thrown away every week in the UK, which is 13 every second. A 17-year-old student said it felt wasteful to throw away the battery with the vape after only three days. I will use the 2024 number at the start of my page to show how big the problem is, and the student's words as the voice of a user.",
+      "description": "Kemp, O., Warnes, S. and Thomson, Q. (2025) 'UK to ban sale of disposable vapes in response to soaring waste and safety risks', CNN, 31 May.\n\nThis news article is about the UK ban on the sale of disposable vapes. It reports a Material Focus figure from 2024: about 8.2 million vapes were thrown away every week in the UK, which is 13 every second. A 17-year-old student said it felt wasteful to throw away the battery with the vape after only three days. I will use the 2024 number at the start of my page to show how big the problem is, and the student's words as the voice of a user.",
       "images": [],
       "video": "",
       "link": "https://www.cnn.com/2025/05/31/uk/uk-ban-disposable-vapes-gbr-dg"
     },
     {
       "title": "Project 0: Desk Research - Source 5 of 9 (News / interview)",
-      "description": "Standaert, M. (2020) 'Business vapourised: Could coronavirus hurt e-cigarette makers?', Al Jazeera, 26 February. This news report is about the e-cigarette factories in Shajing, a district of Shenzhen in China. The reporter talked to a factory boss there. The article (2020) says about 85.7% of the world's vaping devices are made in this area, and about 500,000 people worked directly in the factories in and around Shenzhen at the end of 2019. I will use this for the 'where it is made' part of my page, to show the workers behind the object.",
+      "description": "Standaert, M. (2020) 'Business vapourised: Could coronavirus hurt e-cigarette makers?', Al Jazeera, 26 February.\n\nThis news report is about the e-cigarette factories in Shajing, a district of Shenzhen in China. The reporter talked to a factory boss there. The article (2020) says about 85.7% of the world's vaping devices are made in this area, and about 500,000 people worked directly in the factories in and around Shenzhen at the end of 2019. I will use this for the 'where it is made' part of my page, to show the workers behind the object.",
       "images": [],
       "video": "",
       "link": "https://www.aljazeera.com/economy/2020/2/26/business-vapourised-could-coronavirus-hurt-e-cigarette-makers"
     },
     {
       "title": "Project 0: Desk Research - Source 6 of 9 (News / interview)",
-      "description": "Renewable Energy Magazine (2026) 'Lithium-ion batteries inside discarded vapes are creating thousands of battery fires across the UK', 28 September. This article is about the battery fires caused by vapes that are thrown away, even after the ban. A survey from December 2025 to January 2026 found that 6.3 million vapes and pods were still thrown away every week (8.2 million in 2024), and 47% of vapers did not know that vapes can be recycled. More than 1,200 battery fires in one year (2023 to 2024) were linked to these batteries. I will use the fire number in the battery part, to show what happens after the vape goes in the bin.",
+      "description": "Renewable Energy Magazine (2026) 'Lithium-ion batteries inside discarded vapes are creating thousands of battery fires across the UK', 28 September.\n\nThis article is about the battery fires caused by vapes that are thrown away, even after the ban. A survey from December 2025 to January 2026 found that 6.3 million vapes and pods were still thrown away every week (8.2 million in 2024), and 47% of vapers did not know that vapes can be recycled. More than 1,200 battery fires in one year (2023 to 2024) were linked to these batteries. I will use the fire number in the battery part, to show what happens after the vape goes in the bin.",
       "images": [],
       "video": "",
       "link": "https://www.renewableenergymagazine.com/storage/lithiumion-batteries-inside-discarded-vapes-are-creating-20260928"
     },
     {
       "title": "Project 0: Desk Research - Source 7 of 9 (Government)",
-      "description": "Department for Environment, Food & Rural Affairs (2025) 'Single-use vapes banned from 1 June 2025', GOV.UK, 31 May. This is the government announcement of the ban. From 1 June 2025 the UK banned the sale of single-use vapes. It also says recycling them is slow and expensive, because each one has to be taken apart by hand. I will use the date of the ban, and the point about taking them apart by hand, in the last part of my page about what happens at the end.",
+      "description": "Department for Environment, Food & Rural Affairs (2025) 'Single-use vapes banned from 1 June 2025', GOV.UK, 31 May.\n\nThis is the government announcement of the ban. From 1 June 2025 the UK banned the sale of single-use vapes. It also says recycling them is slow and expensive, because each one has to be taken apart by hand. I will use the date of the ban, and the point about taking them apart by hand, in the last part of my page about what happens at the end.",
       "images": [],
       "video": "",
       "link": "https://www.gov.uk/government/news/single-use-vapes-banned-from-1-june-2025"
     },
     {
       "title": "Project 0: Desk Research - Source 8 of 9 (Commercial / industry)",
-      "description": "Material Focus (2023) 'Disposable single-use vapes thrown away have quadrupled to 5 million per week', 8 September. This press release is about how fast the number of thrown-away vapes grew: from 1.3 million a week to nearly 5 million a week in 2023. It says the lithium inside the vapes bought in one year could power nearly 5,000 electric cars. I will use this comparison in the battery part of my page.",
+      "description": "Material Focus (2023) 'Disposable single-use vapes thrown away have quadrupled to 5 million per week', 8 September.\n\nThis press release is about how fast the number of thrown-away vapes grew: from 1.3 million a week to nearly 5 million a week in 2023. It says the lithium inside the vapes bought in one year could power nearly 5,000 electric cars. I will use this comparison in the battery part of my page.",
       "images": [],
       "video": "",
       "link": "https://materialfocus.org.uk/?press-releases=disposable-single-use-vapes-thrown-away-have-quadrupled-to-5-million-per-week"
     },
     {
       "title": "Project 0: Desk Research - Source 9 of 9 (Mintel)",
-      "description": "Mintel (2025) 'UK Disposable Vape Ban', Mintel Observation, 20 June. (Accessed through the University of Southampton Library.) This Mintel observation (2025) is about how UK consumers see the disposable vape ban. 66% of UK consumers think carefully about how their daily choices affect their lifestyle. Mintel says disposable vapes were once seen as a safer choice than smoking, but they have become a big environmental and health problem in the UK. I will use this for the user part of my page, to show how people's view of the vape has changed.",
+      "description": "Mintel (2025) 'UK Disposable Vape Ban', Mintel Observation, 20 June. (Accessed through the University of Southampton Library.)\n\nThis Mintel observation (2025) is about how UK consumers see the disposable vape ban. 66% of UK consumers think carefully about how their daily choices affect their lifestyle. Mintel says disposable vapes were once seen as a safer choice than smoking, but they have become a big environmental and health problem in the UK. I will use this for the user part of my page, to show how people's view of the vape has changed.",
       "images": [],
       "video": "",
       "link": "https://clients.mintel.com/"

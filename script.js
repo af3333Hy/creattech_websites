@@ -133,7 +133,7 @@ async function renderBlog(moduleId) {
       const h3 = document.createElement("h3");
       h3.textContent = section.label;
       const p = document.createElement("p");
-      p.textContent = text;
+      setTextWithLinks(p, text);
       wrap.appendChild(h3);
       wrap.appendChild(p);
       card.appendChild(wrap);
@@ -147,7 +147,7 @@ async function renderBlog(moduleId) {
       const h3 = document.createElement("h3");
       h3.textContent = "References";
       const p = document.createElement("p");
-      p.textContent = week.references;
+      setTextWithLinks(p, week.references);
       wrap.appendChild(h3);
       wrap.appendChild(p);
       card.appendChild(wrap);
@@ -178,7 +178,7 @@ async function renderProjects(moduleId) {
 
     if (project.description) {
       const p = document.createElement("p");
-      p.textContent = project.description;
+      setTextWithLinks(p, project.description);
       card.appendChild(p);
     }
 
@@ -239,6 +239,23 @@ function toEmbedUrl(url) {
   }
 
   return null;
+}
+
+// Puts text on the page and turns every web address in it into a clickable link.
+function setTextWithLinks(el, text) {
+  const parts = text.split(/(https?:\/\/[^\s]*[^\s.,;:)'"])/);
+  parts.forEach((part, i) => {
+    if (i % 2 === 1) {
+      const a = document.createElement("a");
+      a.href = part;
+      a.textContent = part;
+      a.target = "_blank";
+      a.rel = "noopener";
+      el.appendChild(a);
+    } else {
+      el.appendChild(document.createTextNode(part));
+    }
+  });
 }
 
 async function fetchJSON(path) {
