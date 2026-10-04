@@ -241,22 +241,23 @@ function toEmbedUrl(url) {
   return null;
 }
 
-// Puts text on the page and turns every web address in it into a clickable link.
-function setTextWithLinks(el, text) {
+
+  // Puts text on the page and turns every web address in it into a clickable link.
+  function setTextWithLinks(el, text) {
   const parts = text.split(/(https?:\/\/[^\s]*[^\s.,;:)'"])/);
-  parts.forEach((part, i) => {
-    if (i % 2 === 1) {
-      const a = document.createElement("a");
-      a.href = part;
-      a.textContent = part;
-      a.target = "_blank";
-      a.rel = "noopener";
-      el.appendChild(a);
-    } else {
-      el.appendChild(document.createTextNode(part));
-    }
-  });
-}
+   parts.forEach((part, i) => {
+      if (i % 2 === 1) {
+        const a = document.createElement("a");
+        a.href = part;
+        a.textContent = part;
+        a.target = "_blank";
+        a.rel = "noopener";
+        el.appendChild(a);
+      } else {
+        el.appendChild(document.createTextNode(part));
+      }
+    });
+  }
 
 async function fetchJSON(path) {
   const res = await fetch(path);
