@@ -1,13 +1,18 @@
 {
   "week": 2,
-  "title": "",
-  "date": "",
-  "introduction": "",
+  "title": "Running stick figure",
+  "date": "2026-09-29T10:00:00.000+01:00",
+  "introduction": "I used p5.js to make a running stick figure: a white person on a black background. This is my work for week 2 of ARTD6231, after Marey's chronophotography.\n\nThe work runs here:\nhttps://editor.p5js.org/af3333Hy/full/OLxSjKuCT",
   "related_work": "",
-  "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
-  "images": [],
+  "method": "The original code was walking. I changed it into running and improved the steps and the action: the elbows are tucked in and the body leans forward. I made the beginning and the end run fast and the middle run slow, so the figures in the middle are more dense.",
+  "results_discussion": "While I was changing the code, at one point all of the figures in the middle had the same action. The action was lost, just because the \"shooting\" had the same frequency as the running. I think it is like a reference point in physics: when the camera shoots with the same rhythm as the running, the action looks still, although the runner is still moving.",
+  "conclusion_future_work": "In the end, Marey's result and my result look similar, but the whole process is different.\n\nThe original code comes from geotheory (2013). AI helped me change some of the code, but the project, the process and every decision were my own.",
+  "images": [
+    "assets/images/iat_w2_stickman_final.png",
+    "assets/images/iat_w2_stickman_recording.gif",
+    "assets/images/iat_w2_stickman_process_1_3.png",
+    "assets/images/iat_w2_stickman_process_4_same_pose.png"
+  ],
   "video": "",
-  "references": ""
+  "references": "[1] geotheory. 2013. Processing stickman (original code).\nhttps://gist.github.com/geotheory/5373003\n\n[2] My p5.js sketch (code).\nhttps://editor.p5js.org/af3333Hy/sketches/OLxSjKuCT"
 }

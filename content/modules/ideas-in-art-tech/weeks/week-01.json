@@ -1,13 +1,13 @@
 {
   "week": 1,
-  "title": "",
-  "date": "",
-  "introduction": "",
+  "title": "A Bicycle Built for Two Thousand and HAL 9000",
+  "date": "2026-09-22T10:00:00.000+01:00",
+  "introduction": "The two links use the same song in opposite ways: humans imitate a machine, and a machine imitates humans.",
   "related_work": "",
   "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
+  "results_discussion": "In the first, 2,000 people each sang only a tiny fragment. They did not know what the whole project was or what the others were doing. Like cogs, their fragments were put together to imitate a computer voice, so the whole song sounds like a machine, although every sound is human.\n\nIn the second, HAL went crazy because of contradictory human orders. When the man starts to kill it, it shows human emotions: it is scared and sings because it does not want to die. In that moment the machine seems more human than the man, who kills it without any emotion.",
+  "conclusion_future_work": "Ironically, technology makes machines more like humans and humans more like machines, and neither knows the truth. Social media today does the same thing to us. This is my opinion.",
   "images": [],
   "video": "",
-  "references": ""
+  "references": "[1] Aaron Koblin and Daniel Massey. 2009. A Bicycle Built for Two Thousand.\nhttps://www.bicyclebuiltfortwothousand.com/\n\n[2] Stanley Kubrick. 1968. 2001: A Space Odyssey (the scene where HAL 9000 is shut down).\nhttps://www.youtube.com/watch?v=V0bUd6KrQGg"
 }
