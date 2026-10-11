@@ -1,13 +1,18 @@
 {
   "week": 3,
-  "title": "",
-  "date": "",
-  "introduction": "",
+  "title": "Flock: black dots on white",
+  "date": "2026-10-12T13:00:00.000+01:00",
+  "introduction": "The flight of birds is similar to the running of humans, yet the two are diametrically opposed. In this piece, black dots move from the bottom left corner to the top right corner, and you can see that each black dot converges to form a single whole. This is the exact opposite of my first project, which is why I chose it to contrast with the running human figure.",
   "related_work": "",
-  "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
-  "images": [],
+  "method": "This movement is based on the flocking model. There is no leader in a flock of birds; each bird follows three rules: maintaining an appropriate distance, flying in the same direction as neighbouring birds, and moving towards the centre of the neighbouring flock. I used p5.js and referred to the official ‘Flocking’ example [1]. In the original version, the flock splits into several smaller groups because each bird relies solely on its immediate neighbours.",
+  "results_discussion": "I chose a white background and black dots to distinguish this project from the ‘Running’ project. I experimented with various special effects, but ultimately realised they were unnecessary: the more effects there were, the more cluttered the screen became, which actually detracted from the final result. This minimalist approach, on the other hand, illustrates the rules more clearly.",
+  "conclusion_future_work": "All the initial code is taken from the official p5.js examples. AI assisted me with part of the coding and helped resolve some issues. Every choice, every objective, and the entire creative process were my own.",
+  "images": [
+    "assets/images/iat_w3_flock_five_moments.png",
+    "assets/images/iat_w3_flock_still.png",
+    "assets/images/iat_w3_flock_original_groups.png",
+    "assets/images/iat_w3_flock_effects_removed.png"
+  ],
   "video": "",
-  "references": ""
+  "references": "[1] p5.js. Flocking (example). https://p5js.org/examples/classes-and-objects-flocking/\n\n[2] Reynolds, C. (1986) Boids: flocks, herds and schools. https://www.red3d.com/cwr/boids/\n\n[3] Shiffman, D. The Nature of Code, chapter 6: Autonomous agents. https://natureofcode.com/book/chapter-6-autonomous-agents/"
 }
