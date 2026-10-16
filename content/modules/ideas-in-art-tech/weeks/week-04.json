@@ -1,13 +1,19 @@
 {
   "week": 4,
-  "title": "",
-  "date": "",
-  "introduction": "",
-  "related_work": "",
-  "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
-  "images": [],
+  "title": "A Tired Student on the Desk",
+  "date": "2026-10-17T00:40:00.000+01:00",
+  "introduction": "This week's assignment was to design a toy, not a game. It could be any kind of toy, in any style and shown in any way. At first I did not have any idea. I thought about things I liked in my childhood, like cars and board games, but in the end I chose a student studying abroad, with four actions: sleeping on the desk, eating hometown food, lying on the sofa, and lying on her back playing with the phone. Students studying abroad really do these things every day. I wanted to make them as little models that stand on a desk, so when you see them you find them interesting, because these are our daily behaviours.\n\nWhen I chose this idea, 3D printing was too difficult for me, so I thought that if I could make a 3D model and render it, that would be the best way to show the atmosphere.",
+  "related_work": "In the lecture Seth Giddings said a toy has three technical features: scale, tactility and operability [1]. My models are palm-sized, so the scale fits a hand. For tactility, I imagine them as soft vinyl, so you can squeeze them. For operability, the four poses are not four fixed statues: they are interchangeable parts of the same student. You can swap the head, or swap the thing in her hand (the laptop, the bowl of hometown food, the phone), and the four round bases can be joined together in any order. So the player decides which state the student is in today.\n\nHe also asked how open-ended a toy should be, and said children often misuse toys, like turning war figures into butterflies. I only give four states. Who puts them on their desk, in what order, or whether they use them to make fun of a roommate, is decided by the player. There are no rules and no winning. That is why it is a toy and not a game.",
+  "method": "I decided to make a Q-style girl, because a girl is cuter and shows the effect better. For the face, the hair, the eyes and the expression, I found some pictures on websites as material and used AI to make some samples. I compared several pictures and decided the final eyes and hair myself. In the end I had a character as my main role.\n\nFor the style I chose pixel art, because in these weeks we also used Piskel to draw in our own style, so I wanted to use it in this project too [2]. At first I drew four pictures at 80 x 80, but the details were too small, so I went up to 128 x 128 and drew them again. It was a lot of work.\n\nI found that if I wanted to finish in one week, it was too difficult to make the 3D model by myself in the software. So in the end I used AI to make the 3D model, on a website called Meshy [3]. The whole model was made by AI. But when the model was finished it had some problems: the face count was very high, and there were small flaws on the face and body. So in Blender I reduced the face count, made the four models the same proportion, fixed the small problems, and added a base under each model [4]. Then I made a little environment: a desk with the four models on it, night lighting, and I adjusted the light values myself. I also plan to add a hand next to the models in the render, so you can see that they are palm-sized.",
+  "results_discussion": "During the process, at first the \"studying\" and \"playing with the phone\" models did not have a lower body. I found that if you want AI to make a 3D model, a whole-body picture works better than a half body, and the whole body also looks better. So in the end every model has a whole body.\n\nIn the end I found this project is similar to week three. If you want to add more and more details and you do not have enough time, you have to make choices: add details when it is worth it, like going from 80 x 80 to 128 x 128, but you cannot add a lot of detail to a 3D model in one week.",
+  "conclusion_future_work": "AI helped me a lot in this project, especially with the 3D model. But the whole idea came from myself: the style, the look, the character from 2D to 3D, and the final scene and rendering were all done by me. If I pick this piece for the final portfolio, the next step is to make the operability real: model the swappable head and hand objects, and render the four bases joined in different orders.",
+  "images": [
+    "assets/images/iat_w4_toy_pixel_four.png",
+    "assets/images/iat_w4_toy_lineart_four.png",
+    "assets/images/iat_w4_toy_white_model.png",
+    "assets/images/iat_w4_toy_group_night.png",
+    "assets/images/iat_w4_toy_closeup.png"
+  ],
   "video": "",
-  "references": ""
+  "references": "[1] Giddings, S. (2024) Why look at toys? Play, protopolitics, and the postnatural. Cultural Politics, 20(1), 60-74.\n\n[2] Piskel (pixel art editor). https://www.piskelapp.com/\n\n[3] Meshy (AI image-to-3D). https://www.meshy.ai/\n\n[4] Blender 5.2. https://www.blender.org/\n\n[5] Jimeng AI (concept samples for the character). https://jimeng.jianying.com/"
 }
