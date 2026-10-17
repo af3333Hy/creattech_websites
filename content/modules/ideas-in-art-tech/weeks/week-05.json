@@ -1,21 +1,13 @@
 {
   "week": 5,
-  "title": "Running, two soundtracks",
-  "date": "2026-10-12T21:45:29+01:00",
-  "introduction": "This piece has one picture and two soundtracks. Track A follows the picture. Track B goes against it.\n\nThis week I used my Week 2 running stickman again. When I first watched Track A, I felt it was really strange. It was almost the same as Track B, because the sound and the picture could not match. So I decided to change the numbers. I made the canvas longer, and I changed the sin curve into five stages, so it is smoother, like walking up a gentle slope and slowly coming down.",
-  "related_work": "Before this week I read Walter Murch. I think he has three rules. First, reassociation: you can put a sound on a thing that cannot make this sound, like a person making a bird sound. Second, when the sound and the picture do not match, it becomes a metaphor; he says every successful reassociation is a metaphor, and every metaphor looks like a mistake at first. Third, the bigger the gap between sound and picture, the more the audience has to imagine, but if the gap is too big, people cannot understand it any more. So I made one picture and two soundtracks to test these rules on my own work.",
-  "method": "For the sounds I did not download anything. All the sounds are made in code: a short tap for every footstep, a breathing loop, and for Track B a fixed beat. The footstep times come from the running code itself, so in Track A every tap is a real step.\n\nTrack A follows the picture. Every tap is a real footstep, and the breathing gets faster with the legs. In the middle the legs are very fast but the body moves very slowly, so it looks like running hard without moving forward.",
-  "results_discussion": "Track B is a fixed beat and calm breathing. It feels strange from the start. After a few seconds I can clearly feel the difference from A: the steps and the stride do not match the picture at all, so the sound and the picture never connect. Murch says every reassociation is a metaphor, and every metaphor looks like a mistake at first. Track B is that mistake.",
-  "conclusion_future_work": "The video with sound is linked in the references (A then B, 50 seconds). The GIF below is silent.",
-  "images": [
-    "assets/images/iat_w5_running_recording.gif",
-    "assets/images/iat_w5_running_1_sparse.png",
-    "assets/images/iat_w5_running_2_medium.png",
-    "assets/images/iat_w5_running_3_densest.png",
-    "assets/images/iat_w5_running_4_medium.png",
-    "assets/images/iat_w5_running_5_sparse.png",
-    "assets/images/iat_w5_running_code_changes.png"
-  ],
+  "title": "",
+  "date": "",
+  "introduction": "",
+  "related_work": "",
+  "method": "",
+  "results_discussion": "",
+  "conclusion_future_work": "",
+  "images": [],
   "video": "",
-  "references": "[1] Walter Murch (2000) Stretching Sound to Help the Mind See. https://filmsound.org/murch/stretching.htm\n\n[2] Walter Murch interview, Dense Clarity - Clear Density (Transom, 2005). https://transom.org/2005/walter-murch/\n\n[3] My p5.js sketch, Week 5 version (four lines changed from Week 2). https://editor.p5js.org/af3333Hy/sketches/r2NfTzgju\n\n[4] geotheory (2013) Processing stickman, original code. https://gist.github.com/geotheory/5373003 (ported to p5.js and changed by me; AI helped with the port)\n\n[5] Sounds: all synthesised in code (numpy), no downloaded samples; AI helped with the recording script and the sound synthesis.\n\n[6] Video with sound, A then B (50 s): https://af3333hy.github.io/creattech_websites/assets/video/iat_w5_running_two_soundtracks.mp4\n\n[7] Track A only (video): https://af3333hy.github.io/creattech_websites/assets/video/iat_w5_running_A_in_sync.mp4\n\n[8] Track B only (video): https://af3333hy.github.io/creattech_websites/assets/video/iat_w5_running_B_against.mp4\n\n[9] Audio only: A https://af3333hy.github.io/creattech_websites/assets/audio/iat_w5_running_A_in_sync.mp3  |  B https://af3333hy.github.io/creattech_websites/assets/audio/iat_w5_running_B_against.mp3"
+  "references": ""
 }
