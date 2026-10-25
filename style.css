@@ -108,6 +108,9 @@ main#content {
   border-radius: 4px;
 }
 
+.video-file { margin: 1rem 0; }
+.video-file video { width: 100%; display: block; background: #000; border-radius: 4px; }
+
 .video-embed {
   position: relative;
   padding-bottom: 56.25%;

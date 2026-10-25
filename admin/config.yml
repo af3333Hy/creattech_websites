@@ -67,7 +67,7 @@ collections:
         widget: "list"
         required: false
         field: { label: "Image", name: "image", widget: "image" }
-      - { label: "Video URL (YouTube or Vimeo link)", name: "video", widget: "string", required: false }
+      - { label: "Video URL (YouTube, Vimeo, or an .mp4 file in assets/video)", name: "video", widget: "string", required: false }
       - label: "References"
         name: "references"
         widget: "text"
@@ -110,5 +110,5 @@ collections:
                 widget: "list"
                 required: false
                 field: { label: "Image", name: "image", widget: "image" }
-              - { label: "Video URL (YouTube or Vimeo link)", name: "video", widget: "string", required: false }
+              - { label: "Video URL (YouTube, Vimeo, or an .mp4 file in assets/video)", name: "video", widget: "string", required: false }
               - { label: "Project Link (optional)", name: "link", widget: "string", required: false }

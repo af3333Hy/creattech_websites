@@ -210,6 +210,19 @@ function appendMedia(card, images, videoUrl) {
     card.appendChild(gallery);
   }
 
+  // A direct .mp4 link (a file in this repo) plays in a normal video player.
+  if (videoUrl && /\.mp4(\?.*)?$/i.test(videoUrl)) {
+    const wrap = document.createElement("div");
+    wrap.className = "video-file";
+    const v = document.createElement("video");
+    v.src = videoUrl;
+    v.controls = true;
+    v.preload = "metadata";
+    wrap.appendChild(v);
+    card.appendChild(wrap);
+    return;
+  }
+
   const embedUrl = toEmbedUrl(videoUrl);
   if (embedUrl) {
     const wrap = document.createElement("div");
