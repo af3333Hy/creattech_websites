@@ -1,13 +1,20 @@
 {
   "week": 6,
-  "title": "",
-  "date": "",
-  "introduction": "",
-  "related_work": "",
-  "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
-  "images": [],
-  "video": "",
-  "references": ""
+  "title": "The words deny the face",
+  "date": "2026-10-27T21:00:00+00:00",
+  "introduction": "This week’s task was to make a short animation. The hint was that text or sound can either follow the picture or go against it. I did not want to make new drawings for a one-week task, so I used a backup design from Project 1 that I had originally decided not to use there: two black-and-white pixel faces, a man and a woman, each with three expressions (calm, surprised, smiling). I made the same short conversation twice. In Version A, the words match the faces; in Version B, the words and the faces are completely at odds with one another.",
+  "related_work": "The examples the lecturer gave all concerned one layer working against another. In Duck Amuck, the drawing keeps changing against the character; in this week’s lecture, Ryan paused the film twice to say ‘think about sound and image here’. In Everything Will Be OK, the first chapter of Hertzfeldt’s It’s Such a Beautiful Day, a calm voice narrates a life that is not OK at all. One line of that narration struck me in particular: she ‘moved away with a tight-lipped smile on her face, as though everything were okay’. That is almost exactly the fourth beat of my Version B. In both films, the audience watches the gap between the two layers, rather than a single layer on its own. I wanted the same gap, but between a face and the words beneath it.",
+  "method": "Two faces are shown side by side, as if in a video call; the man is on the left and the woman on the right. There are six beats in total. In each beat, one person types a line beneath their face, letter by letter; each letter is accompanied by a key click, and sending the line produces a small pop. The faces change in a fixed sequence (calm, surprised, smiling), and each change is a grain dissolve, so the visuals stay inside the black-and-white pixel style. Versions A and B use exactly the same faces, the same timing and the same sounds. The only difference lies in the words. Everything is made in code: the frames are drawn one by one in Python and joined together with ffmpeg; the sounds are synthesised; and the lines are stored in a small text file, which means I can change a line and rebuild the video in under a minute.",
+  "results_discussion": "Although the pictures are identical, the two versions convey entirely different impressions. Version A feels natural, like an ordinary chat between two people who are happy to see each other. Version B, on the other hand, feels absurd and, after a while, uncomfortable. From the fourth beat onwards, when she smiles as she types that she is busy, the gap becomes glaringly obvious, and every subsequent line makes the atmosphere even more awkward. You do not even need to read the words to grasp the truth: the faces say it all. The words merely reveal that neither of them is willing to admit it. That awkwardness is precisely the point of the piece. Three expressions were enough, because the story only needs three stages: pretending, slipping and giving up. In the lecture, Ryan quoted Eisenstein on Disney: ‘we know that they are drawings and not living beings, but at the same time we sense them as alive’. That is precisely what happens here. Everyone can see that the faces are pixel drawings, yet they believe the face and not the words.",
+  "conclusion_future_work": "Weeks 5 and 6 form a pair. In Week 5, the sound did not match the picture, and the result was a feeling that something was wrong. In Week 6, the text does not match the picture, and the result is a split between the real face and the words. The two weeks show the same thing from two sides: another medium, be it sound or text, can change how a picture is read. This also reflects how animation grew up: the early films were drawn silent, and the soundtrack was made later and placed onto the image. The sound I added in Week 5 and the words I added in Week 6 are the same kind of layer, added afterwards; the picture itself never moves, and what is placed on it decides what is read. This pair differs in form from my Week 2 and Week 3 pair, which was about one moving figure and a group.",
+  "images": [
+    "assets/images/iat_w6_mouth_B_deny.gif",
+    "assets/images/iat_w6_mouth_A_agree.gif",
+    "assets/images/iat_w6_mouth_B_beat2.png",
+    "assets/images/iat_w6_mouth_B_beat4.png",
+    "assets/images/iat_w6_mouth_A_beat2.png",
+    "assets/images/iat_w6_mouth_A_beat6.png"
+  ],
+  "video": "assets/video/iat_w6_mouth_A_then_B.mp4",
+  "references": "[1] Chuck Jones (dir.) (1953) Duck Amuck. Warner Bros.\n\n[2] Don Hertzfeldt (2012) It's Such a Beautiful Day; its first chapter, Everything Will Be OK, was released in 2006.\n\n[3] Fernand Leger and Dudley Murphy (1924) Ballet mecanique.\n\n[4] Ryan Bishop, ARTD6231 lecture on the history of animation, 27 October 2026 (the Eisenstein quotation, from Eisenstein on Disney, ed. Jay Leyda, 1986; 'a soundtrack that is made later and then placed onto the image').\n\n[5] The two faces are my own 1-bit pixel portraits from Project 1 (three expressions each, traced in Piskel from AI reference images).\n\n[6] Animation and sound made in code (Python + ffmpeg): frames drawn one by one, grain dissolve between expressions, key clicks and the send pop synthesised; no downloaded footage or samples; AI helped with the script. Lines are in lines.json.\n\n[7] Video with sound, A then B (56 s): https://af3333hy.github.io/creattech_websites/assets/video/iat_w6_mouth_A_then_B.mp4\n\n[8] A only, the words agree with the face: https://af3333hy.github.io/creattech_websites/assets/video/iat_w6_mouth_A_agree.mp4\n\n[9] B only, the words deny the face: https://af3333hy.github.io/creattech_websites/assets/video/iat_w6_mouth_B_deny.mp4"
 }
