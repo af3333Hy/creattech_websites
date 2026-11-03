@@ -1,13 +1,20 @@
 {
   "week": 7,
-  "title": "",
-  "date": "",
-  "introduction": "",
-  "related_work": "",
-  "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
-  "images": [],
-  "video": "",
-  "references": ""
+  "title": "Shadow theatre on my dorm wall",
+  "date": "2026-11-03T22:00:00+00:00",
+  "introduction": "This week's task was a piece intended for projection or digital screening. I took the running stick figure from Weeks 2 and 5, cut it out as a flat card and held it in front of a photograph of the real wall in my room. A virtual hand-held lamp lights the card and throws its shadow onto the wall. Everything is computed: there is no physical card, no real lamp and no p5. The frames are drawn one by one in Python and joined with ffmpeg.",
+  "related_work": "Shadow theatre is the oldest kind of projection: light, an object and a wall are enough. In this week's lecture, Sean Cubitt argued that projection is a practice of light rather than a machine. Two moments went straight into the piece. He described the Lascaux cave paintings as seen 'by a flickering torch, not unlike the flicker of cinema', and he returned to Plato's cave, where the prisoners watch shadows thrown by a fire they cannot see; without the fire there is no shadow at all. Ryan opened the session with the difference between projection and illumination: a screen makes its own light, while a projected image is borrowed light on a surface.",
+  "method": "The lamp is a point source. When it is far from the card the shadow is small and sharp; when it comes close and low the shadow stretches to the top of the wall and its edge softens into a penumbra. The magnification depends only on two distances, lamp to wall divided by lamp to card, so the figure never changes, only the lamp does. The lamp is hand-held, so it trembles slightly. After the lecture I added two things. The lamp now takes five seconds to come on, from black through half-light to full, and it flickers like a torch: three sine waves of different speeds are stacked together so that the flicker never repeats. AI wrote the Python script and the template for the lamp. I planned the piece, set the lamp's path and timing, and tuned the numbers (how long the fade-in takes, how deep the flicker goes, when the lamp switches off) until the light looked right to me.",
+  "results_discussion": "The runner does not decide its own size. Whoever holds the lamp decides how big, how sharp and for how long the figure is seen. That is the power relationship inside every projection: the person at the projector decides what the audience sees. The flicker changed the feeling more than I expected. A steady lamp looked like an office; a trembling one looked like a fire, and the figure became something being watched rather than something being displayed.",
+  "conclusion_future_work": "The piece starts in darkness and ends in darkness. When the lamp goes off nothing remains, which is the basic difference between a projected work and a screen work. The same stick figure has now been through three weeks: it ran in Week 2, it was given a sound in Week 5, and in Week 7 it became a shadow. Each time the figure stayed the same and the layer around it changed.",
+  "images": [
+    "assets/images/iat_w7_shadow_0_dark.png",
+    "assets/images/iat_w7_shadow_0b_half_lit.png",
+    "assets/images/iat_w7_shadow_1_lamp_far.png",
+    "assets/images/iat_w7_shadow_3_lamp_low.png",
+    "assets/images/iat_w7_shadow_5_lamp_off.png",
+    "assets/images/iat_w7_shadow_card.png"
+  ],
+  "video": "assets/video/iat_w7_shadow_theatre_22s.mp4",
+  "references": "[1] Sean Cubitt (2014) The Practice of Light. MIT Press.\n\n[2] Sean Cubitt, guest lecture, ARTD6231, 3 November 2026 (Lascaux seen by 'a flickering torch, not unlike the flicker of cinema'; Plato's cave).\n\n[3] Ryan Bishop, the same session, on projection versus illumination.\n\n[4] geotheory (2013) Processing stickman, the source of the Week 2 figure; adapted by me in Weeks 5 and 7.\n\n[5] Wall photograph: my own, 22 October 2026. Shadow geometry computed in Python (point-source projection, Gaussian penumbra); video joined with ffmpeg. AI wrote the script and the lamp template; the plan, the lamp path, the timing, the switch-on and switch-off and the values of the light are mine.\n\n[6] Video (22 s, silent): https://af3333hy.github.io/creattech_websites/assets/video/iat_w7_shadow_theatre_22s.mp4"
 }
