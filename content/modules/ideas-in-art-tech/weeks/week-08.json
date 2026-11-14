@@ -1,13 +1,17 @@
 {
   "week": 8,
-  "title": "",
-  "date": "",
-  "introduction": "",
-  "related_work": "",
-  "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
-  "images": [],
-  "video": "",
-  "references": ""
+  "title": "Four planets play Holst's Jupiter",
+  "date": "2026-11-10T22:00:00+00:00",
+  "introduction": "This week’s theme was planetary art and speculative design; the assignment was to write about these ideas or to create a piece of work that uses their strategies. I chose to create a piece: a 52-second video in which four planets move in time with one piece of music, ‘Jupiter’ from Gustav Holst’s ‘The Planets’. I drew the four planets myself, pixel by pixel, in Piskel. The planets do not follow their actual orbits; instead, each one follows one part of the sound, and the trails they leave behind remain on the screen. Consequently, when the music stops, the image that remains serves as a ‘map’ of the piece.",
+  "related_work": "During the lecture, Ryan introduced ‘speculative design’: a form of design that does not provide a final answer, but rather offers an alternative perspective on a problem. Guest speaker Bobby Pietrusko showcased a number of projects in which satellites and data shape our idea of the ‘global’. In ‘Satellite Symphony’, thousands of ground stations and satellites recalculate the Earth’s centre of mass every day. In the black hole project, radio telescopes around the world work in concert, so that the Earth itself becomes one telescope. What I learnt from him was that a planet can be not only a subject to draw, but also a measuring instrument. My planets measure music. He transforms orbits and satellite data into something we can see and hear; I, on the other hand, do the opposite, transforming sound into orbits.",
+  "method": "I chose ‘Jupiter’ because it was written about a planet and because its sections vary significantly in loudness, which is precisely what I needed for my mapping. The recording is from Wikimedia Commons. I split the audio into four signals: low frequencies, mid-frequencies, high frequencies and overall loudness. Each planet listens to one of these signals.\n\nThe rule is simple. Angle represents time: each planet orbits at a constant speed, just like the hand of a clock. Distance from the centre represents loudness: when the corresponding part of the music grows louder, the planet is flung further out; when the music softens, the planet falls back. With each lap, the entire path shifts outwards slightly, much like the groove on a vinyl record, so that the laps do not cover each other. There is no sun at the centre; the centre is empty. The frames were drawn one by one in Python and stitched together using ffmpeg.",
+  "results_discussion": "In my first version, each planet moved along a fixed ellipse, whilst the music merely determined whether it moved and how bright it was. The final image was four rings, and it would have looked the same regardless of which piece of music was played. After I changed the rule, the path itself became the data. A different piece of music would leave a different shape. This is the distinction I understood from the lecture: the difference between decorating a picture with data and letting the data itself make the picture.",
+  "conclusion_future_work": "The planets act like the needle of a record player, except that rather than reading, they ‘write’: their position on the circle represents time, whilst their distance from the centre represents loudness. At present, the four signals are merely frequency bands, rather than actual instruments. The next step would be to separate the orchestra into its sections and assign one section to each planet.",
+  "images": [
+    "assets/images/iat_w8_planets_four_sprites.png",
+    "assets/images/iat_w8_planets_30s_trails.png",
+    "assets/images/iat_w8_planets_final_star_map.png"
+  ],
+  "video": "assets/video/iat_w8_planets_holst_jupiter_52s.mp4",
+  "references": "[1] Ryan Bishop, lecture on the Bauhaus and speculative design, ARTD6231, 10 November 2026.\n\n[2] Bobby Pietrusko, guest lecture in the same session (Satellite Symphony; the black hole telescope project).\n\n[3] Gustav Holst, The Planets, Op. 32, IV. Jupiter, the Bringer of Jollity. Recording from Wikimedia Commons (Attribution licence).\n\n[4] Planet sprites: drawn by me in Piskel. Audio analysis and frames computed in Python; video joined with ffmpeg. AI wrote the first version of the script; I chose the music and the mapping rule and adjusted the values."
 }
