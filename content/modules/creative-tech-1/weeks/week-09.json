@@ -1,13 +1,20 @@
 {
   "week": 9,
-  "title": "",
-  "date": "",
-  "introduction": "",
-  "related_work": "",
-  "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
-  "images": [],
+  "title": "Projection mapping onto a folded card and a hat with horns",
+  "date": "2026-11-20T22:00:00+00:00",
+  "introduction": "Tuesday: one project instead of two. Boyd began with a change of plan. The projection mapping project and the physical computing project have now been merged into a single project, and it is not due until December. We can keep the concept we already have and add the physical computing element at a later stage. In his words: “We'll just add an extra layer.”\n\nTuesday: Kantan Mapper, one shape for every face. My object was a folded card: a back wall with a tall step and a short step in front of it. Initially, the projector displayed only a blue screen, as my laptop was not sending any signal to it. The display has to be set to ‘Extend’ rather than ‘Duplicate’ for the projector to become a second screen. I then dragged Kantan Mapper in from the Palette, selected the projector as the display, set the resolution and clicked Toggle Output. Using Create Quad, I drew one shape for each face of the card and, whilst looking at the real object (rather than my screen), dragged its four corners onto the folds. I ended up with eight shapes. I first filled them with flat colours so that I could see which corners were still out of position.\n\nTo put a picture on a face, you drag a TOP onto the shape. A wide image on a narrow face gets squashed, so Boyd showed us Edit Texture: the sampling box on the source image should have the same proportions as the face.",
+  "related_work": "Tuesday: twenty minutes to make one scene. Boyd gave us ten minutes to write a concept and twenty minutes to build it. The rule was that it should look like one whole scene, rather than a set of separate textures. My concept was a corner of space: the back wall is a nebula, and planets sit on the steps. The stars and planets are made from Noise, Ramp and Circle nodes, without any image files. On my first attempt, I gave every face its own picture, and the planet was cut into pieces and stretched differently on each face.\n\nThe fix was to turn the idea around. I made one single picture of the whole scene and used the eight Kantan shapes only as a white mask, so that the picture is visible just where the card is. Now, one planet crosses the fold and the steps, and it reads as one scene.",
+  "method": "Thursday: the same method on a hat with horns. On Thursday, we had to bring an object to project onto. There was nothing new to learn in the software; the only difference was the object. I borrowed a hat with two horns, the body of which was covered in white paper. At first, only a small patch of the picture landed on it.\n\nA quad does not fit a horn. Boyd said to use a freeform shape for a curved surface and to add more points. I put the sky on the body of the hat and a planet on each horn. Boyd then asked what else the hat could be, so I started a monster face for it. He also explained that one projector cannot reach the sides of an object, so a real piece often needs two. For the final project, there is one rule: no flat walls.",
+  "results_discussion": "Talking to Boyd about Project 2. After class on Tuesday, I showed Boyd my Project 2 running live in TouchDesigner: a knock on the table is picked up by the microphone, a bone breaks piece by piece, and then the wall of characters behind it breaks. About my earlier rendered video, he said, “the video looks like AI-generated video… When you go into TouchDesigner, it's much more clear what you're doing.” He liked the sound concept and told me to keep working small. The next question is what surface I will project onto, so that the work is physical and digital together.\n\nWednesday: a first circuit on an Arduino Uno. On Wednesday, Alice ran the first electronics workshop, using an Arduino Uno and a breadboard. We wired three LEDs with resistors and a potentiometer, and wrote a short program so that turning the dial lights the LEDs one by one. The code looks similar to p5: setup runs once, whilst loop repeats. The part that matters for my project came at the very end: the board can send its data over serial into TouchDesigner. This is the extra layer Boyd asked for: a real sensor that feels the knock, rather than my laptop’s microphone.",
+  "conclusion_future_work": "Friday. I was not feeling well on Friday, so I missed the session on sensors. I have the basics from Wednesday now, so when my project needs a sensor, I will connect it and test it then.",
+  "images": [
+    "assets/images/ct1_w9_card_kantan_shapes.jpg",
+    "assets/images/ct1_w9_card_scene_first_try.jpg",
+    "assets/images/ct1_w9_card_scene_one_picture.jpg",
+    "assets/images/ct1_w9_hat_first_patch.jpg",
+    "assets/images/ct1_w9_hat_sky_planets.jpg",
+    "assets/images/ct1_w9_arduino_three_leds.jpg"
+  ],
   "video": "",
-  "references": ""
+  "references": "[1] Boyd, ARTD6232 sessions, 17 and 19 November 2026 (my own recordings and notes).\n\n[2] Alice, electronics workshop, ARTD6232, 18 November 2026 (my own notes)."
 }

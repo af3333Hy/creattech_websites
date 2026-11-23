@@ -1,13 +1,18 @@
 {
   "week": 9,
-  "title": "",
-  "date": "",
-  "introduction": "",
-  "related_work": "",
-  "method": "",
-  "results_discussion": "",
-  "conclusion_future_work": "",
-  "images": [],
+  "title": "Anatomy of a Disposable Vape",
+  "date": "2026-11-17T22:00:00+00:00",
+  "introduction": "This week’s task was to take data and a diagram and transform them into something that can be navigated. I created an interactive map entitled ‘Anatomy of a Disposable Vape’. It follows one £5 device through four stages: Birth (from the earth to the factory), Life (from the ship to the shop and to the mouth), Death (from the bin to the fire and into the ground), and Afterlife (from the ban to what comes next). The map is one large image measuring 5,980 × 3,060 pixels, marked with 88 points. You can drag the map, zoom in, jump between the four stages, and click on any point to read its data. I chose this object because it is small, inexpensive and used for about a week, yet the map behind it spans several continents. This idea stems from my ‘Project 0’, which was also about a disposable vape. This map is a much more complete version of that project: it follows the whole chain from start to finish.\n\nLive map: https://af3333hy.github.io/anatomy-of-a-disposable-vape/",
+  "related_work": "During the lecture, Ryan presented two diagrams by Kate Crawford and Vladan Joler. ‘Anatomy of an AI System’ (2018) maps the resources, labour and data behind one Amazon Echo. ‘Calculating Empires’ (2023) is a genealogy of technology and power since 1500. Ryan said that you can “navigate all over this thing and go very deep in, pull out, see large scale”. As it is impossible to take in the whole at a glance, the act of moving through the diagram itself becomes part of its meaning. I borrowed two things from these diagrams: firstly, the idea of opening up one everyday device; and secondly, the dark background with fine white lines and triangles.",
+  "method": "Firstly, I collected the data and sorted it into the four stages. Birth holds the raw materials and components: lithium, cobalt from the Democratic Republic of the Congo (approximately 70 per cent of global supply), and assembly in Shenzhen, where around 90 per cent of the world’s devices are made (Caixin, 2019). Life holds the journey and the numbers: in 2022, 1.3 million vapes were thrown away every week in the UK, rising to 5 million in 2023; the ban came into force on 1 June 2025; yet in 2026, 6.3 million a week are still thrown away (Material Focus). Death holds the bin, the waste truck, the fires and the landfill. The final point of Death is called Back to ‘mine’, and its dashed line does not close.\n\nThe 81 icons are pixel drawings, 64 by 64, which I drew in Piskel. The page itself is written in plain HTML and JavaScript. There are five buttons (Whole map, Birth, Life, Death and Afterlife), and the keys 0 to 4 perform the same functions.",
+  "results_discussion": "The first version had the picture, the zoom and the jumps, but no feedback. When I zoomed in, I had no idea where I was. So I asked for a line of light that follows the route. Now, a faint light always runs along the main line. A short, bright section of the line indicates ‘you are here’. When you jump, a streak of light travels along the line to the new place; when you click a point, its branch draws itself from the line out to the point and stays lit. From then on, the map felt like something I travel through, rather than a poster I merely look at. You have to follow the line all the way to the right before you realise it does not come back.",
+  "conclusion_future_work": "The work turns a diagram into a route. The price on the shelf is at one point of the line; everything else on the line is what the price does not include. A next step would be to add a photograph or a source link to each card, and to make the page work properly on a phone.",
+  "images": [
+    "assets/images/iat_w9_vape_map_whole.jpg",
+    "assets/images/iat_w9_vape_map_life_branches.jpg",
+    "assets/images/iat_w9_vape_map_cobalt_card.jpg",
+    "assets/images/iat_w9_vape_map_four_layers.jpg"
+  ],
   "video": "",
-  "references": ""
+  "references": "[1] Ryan Bishop, lecture, ARTD6231, 17 November 2026.\n\n[2] Kate Crawford and Vladan Joler, Anatomy of an AI System, 2018.\n\n[3] Kate Crawford and Vladan Joler, Calculating Empires: A Genealogy of Technology and Power since 1500, 2023.\n\n[4] Data: USGS Mineral Commodity Summaries; Caixin Global, 2019; Material Focus, 2022, 2023 and 2026; UK Government impact assessment on the ban of disposable vapes (DEFRA), 2024; DHSC impact assessment on the Tobacco and Vapes Bill, 2024; ASH, 2025 and 2026; IEA, 2026.\n\n[5] Icons: drawn by me in Piskel. AI wrote the first version of the layout script and the web page code; I chose the topic, the four-stage structure and the data, and I asked for and adjusted the interaction and the light feedback."
 }
